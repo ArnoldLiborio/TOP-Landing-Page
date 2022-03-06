@@ -6,7 +6,75 @@ body{
 ul{
     list-style: none;
 }
+
 li{
     text-decoration: none;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
     
+}
+.top-top{
+    display: flex;
+    gap: 20px;   
+}
+.top{
+    display: flex;
+    gap: 50px;
+    flex:1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color:#f9faf8;
+    padding: 48px 60px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-self:flex-start;
+    flex-wrap: wrap;
+    padding: 32px;
+    padding-left: 0;
+    padding-right: 32px;
+    max-width: 350px;
+}
+.main-one{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.under-main-one{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+img{
+    width: 500px;
+    height: 200px;
+}
+button{
+    margin-right: auto;
+    border: none;
+    border-radius: 8px;
+    background:#3992f6;
+    padding: 8px 18px;
+    color: #e5e7eb;
+    font-weight:bold ;
 }
