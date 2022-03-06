@@ -65,7 +65,7 @@ header{
     font-size: 18px;
     color: #e5e7eb;
 }
-img{
+.img-top{
     width: 500px;
     height: 200px;
 }
@@ -77,4 +77,38 @@ button{
     padding: 8px 18px;
     color: #e5e7eb;
     font-weight:bold ;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.center-top{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin: 40px;
+}
+.center-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 32px;
+    padding: 40px;
+}
+.box{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    align-items: center;
+    padding: 18px;
+    text-align: center;
+}
+.img-center{
+    border: 5px solid #3992f6;
+    border-radius: 15px;
+    height: 200px;
+    width: 200px;
 }
