@@ -138,7 +138,7 @@ header{
     gap: 40px;
     color: #e5e7eb;
     background-color: #3992f6;
-    padding: 45px;
+    padding: 35px 90px;
     border-radius: 8px;
     margin: 80px 0;
 }
@@ -158,4 +158,13 @@ header{
     font-weight: bold;
     border-radius: 8px;
     color: #e5e7eb;
+}
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+
 }
