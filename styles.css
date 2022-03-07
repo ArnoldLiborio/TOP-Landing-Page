@@ -69,7 +69,7 @@ header{
     width: 500px;
     height: 200px;
 }
-button{
+.top-button{
     margin-right: auto;
     border: none;
     border-radius: 8px;
@@ -111,4 +111,51 @@ button{
     border-radius: 15px;
     height: 200px;
     width: 200px;
+}
+.quote-box{
+    display: flex;
+    flex-flow: column wrap;
+    background-color:#e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding: 85px 135px;
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author{
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: #e5e7eb;
+    background-color: #3992f6;
+    padding: 45px;
+    border-radius: 8px;
+    margin: 80px 0;
+}
+.bottom-call{
+    font-size: 16px;
+    font-weight: bold;
+}
+.bottom-left{
+    display: flex;
+    flex-flow: column wrap;
+}
+.bottom-button{
+    border:2px solid #e5e7eb;
+    padding: 5px 20px;
+    margin-left: auto;
+    background-color: #3992f6;
+    font-weight: bold;
+    border-radius: 8px;
+    color: #e5e7eb;
 }
